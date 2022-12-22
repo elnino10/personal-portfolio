@@ -5,9 +5,11 @@ import {
   AiOutlineLinkedin,
   AiOutlineGithub,
 } from "react-icons/ai";
+import { scroller } from "react-scroll";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
+  const [onNavLink, setOnNavLink] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const connectRef = useRef();
 
@@ -24,12 +26,17 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (val) => {
-    setActiveLink(val);
+  const toggle = () => {
+    scroller.scrollTo("connect", {
+      smooth: true,
+      duration: 500,
+      spy: true,
+      exact: true
+    });
   };
 
-  const scrollToConnect = () => {
-    console.log(connectRef)
+  const onUpdateActiveLink = (val) => {
+    setActiveLink(val);
   };
 
   return (
@@ -95,7 +102,7 @@ const NavBar = () => {
                 <AiOutlineTwitter />
               </a>
             </div>
-            <button className="vvd" ref={connectRef} onClick={scrollToConnect}>
+            <button className="vvd" ref={connectRef} onClick={toggle}>
               <span>Let's Connect</span>
             </button>
           </span>

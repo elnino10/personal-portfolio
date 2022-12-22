@@ -93,7 +93,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #071283;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -108,6 +108,14 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  opacity: 1;
+}
+nav.navbar .navbar-nav .nav-link.active-navbar-link {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
   opacity: 1;
 }
 span.navbar-text {
@@ -339,7 +347,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item .image-container img {
   width: 50%;
-  /* margin: 0 auto 15px auto; */
 }
 .background-image-left {
   top: 28%;
@@ -555,31 +562,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 1;
   transition: 300ms ease-in-out;
 }
-/* background-color: #f0f8ff; */
-/* .contact form button::before {
-  content: "";
-  background: #121212;
-  border-radius: 3px;
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-.contact form button:hover::before {
-  width: 100%;
-  height: 100%;
-} */
-
 /************ Footer Css ************/
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 0 50px 0;
-  /* background-position: center center; */
   background-size: cover;
 }
 .footer p {
