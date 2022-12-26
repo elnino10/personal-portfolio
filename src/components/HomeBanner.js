@@ -9,8 +9,8 @@ const HomeBanner = () => {
   const [loopLetter, setLoopLetter] = useState(0);
   const [deleting, setDeleting] = useState(false);
   const [text, setText] = useState("");
-  const [alpha, setAlpha] = useState(400 - Math.random() * 100);
-  const rotateWords = ["A Web Developer", "Committed", "And", "Motivated"];
+  const [alpha, setAlpha] = useState(300 - Math.random() * 100);
+  const rotateWords = ["A Web Developer", "Let's meet."];
   const interval = 1500;
 
   const tick = () => {
@@ -32,7 +32,7 @@ const HomeBanner = () => {
     } else if (deleting && updatedText === "") {
       setDeleting(false);
       setLoopLetter(loopLetter + 1);
-      setAlpha(400);
+      setAlpha(300);
     }
   };
 
@@ -41,7 +41,7 @@ const HomeBanner = () => {
       tick();
     }, alpha);
     return () => clearInterval(cursor);
-  }, [text]);
+  });
 
   const toggle = () => {
     scroller.scrollTo("connect", {
@@ -59,13 +59,15 @@ const HomeBanner = () => {
           <Col xs={12} md={6} xl={7}>
             <span>Here's my portfolio</span>
             <h2 className="animate__animated animate__bounce">
-              {`Hi, I'm Chidiebere.`} <span>{text}</span>
+              {`Hi, I'm Joe.`} <span>{text}</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
+              Joe Chidiebere is a passionate web developer. He is ambitious and dedicated on and off
+              the field. A good communicator, solution oriented and 
+              willing to take up new challenge. He enjoys collaborating with creative people and picking
+              up new skills. His team spirit has led to getting projects completed on schedule, judging
+              by his previous job experience outside of the Web Development space. In his free time, he 
+              enjoys football games, reading and billiard.
             </p>
             <button onClick={toggle}>
               Let's meet <ArrowRightCircle size={25} />

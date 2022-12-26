@@ -9,7 +9,6 @@ import { scroller } from "react-scroll";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
-  const [onNavLink, setOnNavLink] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const connectRef = useRef();
 

@@ -7,7 +7,7 @@ import ReactLogo from "../assets/images/react.png";
 import NodeLogo from "../assets/images/node-js.png";
 import CssLogo from "../assets/images/css.png";
 import HtmlLogo from "../assets/images/html.png";
-import JsLogo from "../assets/images/JavaScript-logo.png"
+import JsLogo from "../assets/images/JavaScript-logo.png";
 
 const Skills = () => {
   const responsive = {
@@ -38,9 +38,10 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                <br></br> Sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Here are skills that I have acquired and have grown
+                confident working with.
+                <br></br> These skills I have applied in building some good and
+                amazing projects.
               </p>
               <Carousel
                 responsive={responsive}

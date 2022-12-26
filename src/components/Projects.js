@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import ProjectImg1 from "../assets/images/project-img1.webp";
-import ProjectImg2 from "../assets/images/project-img2.jpg";
+import LosonImg from "../assets/images/loson-img.png";
+import RhonnImg from "../assets/images/rhonn-img.png";
 import ProjectImg3 from "../assets/images/project-img3.jpg";
 
 const Projects = () => {
@@ -10,12 +10,12 @@ const Projects = () => {
     {
       title: "Loson stores e-commerce",
       description: "Building the backend API for an e-commerce app",
-      image: ProjectImg1,
+      image: LosonImg,
     },
     {
       title: "Loson stores e-commerce",
       description: "Building the backend API for an e-commerce app",
-      image: ProjectImg2,
+      image: RhonnImg,
     },
     {
       title: "Loson stores e-commerce",
@@ -31,9 +31,10 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              <br></br> Sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              The projects below are ones live and ones that I've use in
+              practice.
+              <br></br> In these projects I applied my afore mentioned
+              skills. Click on "Tab 1" below to view.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <div className="tab-nav">
@@ -57,8 +58,8 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Nothing Here Yet. Please check back later!</Tab.Pane>
+                <Tab.Pane eventKey="third">Nothing Here Yet. Please check back later!</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
