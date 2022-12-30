@@ -22,6 +22,8 @@ const Contact = () => {
   const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
+  const REACT_APP_SERVER_URL = "http://localhost:8000"
+
   const onUpdateForm = (field, value) => {
     setFormDetails({
       ...formDetails,
@@ -36,7 +38,7 @@ const Contact = () => {
 
     const sendMessage = () => {
       axios
-        .post("http://localhost:5000/contact", {
+        .post(`${REACT_APP_SERVER_URL}/contact`, {
           ...formDetails,
         })
         .then((res) => {

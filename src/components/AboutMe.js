@@ -73,7 +73,7 @@ const AboutMe = () => {
               and I have quite developed and improved on my soft skills and
               ability to collaborate with co-workers, superiors and
               subordinates. My quest for a flexible and more challenging job
-              pushed me to to learning programming and web development because I
+              pushed me to learning programming and web development because I
               am not shy or afraid of trying or learning a new neccessary skill
               for self improvement. I am happy with my progress so far which led
               to engaging myself with the projects listed above in the{" "}
