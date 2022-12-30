@@ -12,7 +12,6 @@ import JsLogo from "../assets/images/JavaScript-logo.png";
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -38,8 +37,8 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Here are skills that I have acquired and have grown
-                confident working with.
+                Here are skills that I have acquired and have grown confident
+                working with.
                 <br></br> These skills I have applied in building some good and
                 amazing projects.
               </p>

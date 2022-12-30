@@ -11,19 +11,21 @@ const Projects = () => {
       description:
         "I built the backend APIs using NodeJs/ExpressJs and MongoDb as database, and used ReactJs for the frontend. The App displays different functionalities including CRUD operations. You can view the github repo by clicking on image.",
       image: LosonImg,
-      link: "https://github.com/elnino10/loson-wears"
+      link: "https://github.com/elnino10/loson-wears",
     },
     {
       title: "Rhonn Real Estate Website",
-      description: "The website is more of a client-side project built with ReactJs library. I used MongoDb as database for data collation and storage. Click to visit website.",
+      description:
+        "The website is more of a client-side project built with ReactJs library. I used MongoDb as database for data collation and storage. Click to visit website.",
       image: RhonnImg,
-      link: "https://github.com/elnino10/rhonn-real-estate"
+      link: "https://github.com/elnino10/rhonn-real-estate",
     },
     {
       title: "Food Ordering App",
-      description: "Used ReactJs to implement the features of the app including routing and used firebase for authentication and data storage. Click on it to view the github repo.",
+      description:
+        "Used ReactJs to implement the features of the app including routing and used firebase for authentication and data storage. Click on it to view the github repo.",
       image: FoodOrderImg,
-      link: "https://github.com/elnino10/food-order-app-UI"
+      link: "https://github.com/elnino10/food-order-app-UI",
     },
   ];
 

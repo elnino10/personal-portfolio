@@ -24,19 +24,14 @@ const contactEmail = nodemailer.createTransport({
   },
 });
 
-// contactEmail.verify((error) => {
-//   if (error) {
-//     console.log(error);
-//   } else {
-//     console.log("Ready to Send Mail");
-//   }
-// });
-
 router.post("/contact", (req, res) => {
   const first_name = req.body.first_name
   const last_name = req.body.last_name
   const email = req.body.email;
   const message = req.body.message;
+
+  /* first name and email are required for the form to submit successfully
+  if there's no message, form submission will not be successful as well */
 
   if(!first_name && !email) return res.json({code: 401, message: "First name and Email address is required"})
   if(!message) return res.json({code: 401, message: "Message cannot be empty"})

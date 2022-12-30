@@ -62,12 +62,14 @@ const HomeBanner = () => {
               {`Hi, I'm Joe.`} <span>{text}</span>
             </h2>
             <p>
-              Joe Chidiebere is a passionate web developer. He is ambitious and dedicated on and off
-              the field. A good communicator, solution oriented and 
-              willing to take up new challenge. He enjoys collaborating with creative people and picking
-              up new skills. His team spirit has led to getting projects completed on schedule, judging
-              by his previous job experience outside of the Web Development space. In his free time, he 
-              enjoys football games, reading and billiard.
+              Joe Chidiebere is a passionate web developer. He is ambitious and
+              dedicated on and off the field. A good communicator, solution
+              oriented and willing to take up new challenge. He enjoys
+              collaborating with creative people and picking up new skills. His
+              team spirit has led to getting projects completed on schedule,
+              judging by his previous job experience outside of the Web
+              Development space. In his free time, he enjoys football games,
+              reading and billiard.
             </p>
             <button onClick={toggle}>
               Let's meet <ArrowRightCircle size={25} />
