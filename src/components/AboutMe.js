@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import BannerImg from "../assets/images/bannerImg.png";
+import TeamImg from "../assets/images/team.png";
 import VisionImg from "../assets/images/vision-img.png";
 
 const AboutMe = () => {
@@ -51,7 +51,7 @@ const AboutMe = () => {
         </Row>
         <Row>
           <Col md={6} sm={4}>
-            <img src={BannerImg} alt="values" />
+            <img src={TeamImg} alt="values" />
           </Col>
           <Col md={6} sm={4}>
             <div className="core-values">
