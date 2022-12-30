@@ -15,7 +15,7 @@ body {
   position: relative;
   background-color: #262626 !important;
   color: #fff !important;
-  font-family: "Centra", sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 h1,
@@ -96,7 +96,7 @@ nav.navbar.scrolled {
   background-color: #071283;
 }
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 5%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -467,9 +467,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+  color: #fff;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -499,6 +500,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact img {
   width: 92%;
+  border-radius: 20rem;
 }
 .contact h2 {
   font-size: 45px;
@@ -557,17 +559,79 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: translateY(-0.2rem);
   box-shadow: 1px 5px 5px #e7f59f;
 }
-.social-contacts a img{
+.social-contacts a img {
   width: 40%;
   z-index: 1;
   transition: 300ms ease-in-out;
 }
+
+/************ About me Css ************/
+.about-me {
+  background-color: #f0f8ff;
+  color: #010101;
+  margin: 50px;
+  border-radius: 20px;
+}
+.about-me a {
+  text-decoration: none;
+}
+.about-me img {
+  margin-bottom: 5px;
+  /* width: 40rem;
+  height: 20rem; */
+}
+.about-me .about {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about h2 {
+  padding-top: 10px;
+  font-weight: 700;
+}
+.my-purpose {
+  /* margin: 5px; */
+  padding: 20px;
+  background-color: rgba(95, 158, 160, 0.3);
+}
+.my-vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.core-values {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.core-values ul {
+  list-style-type: circle;
+}
+.my-profile {
+  padding: 20px;
+  background-color: rgba(166, 128, 132, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /************ Footer Css ************/
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 0 50px 0;
+  padding: 0 0 20px 0;
   background-size: cover;
 }
 .footer p {

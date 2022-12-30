@@ -1,26 +1,29 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import LosonImg from "../assets/images/loson-img.png";
-import RhonnImg from "../assets/images/rhonn-img.png";
-import ProjectImg3 from "../assets/images/project-img3.jpg";
-
+import LosonImg from "../assets/images/proj-img-loson.png";
+import RhonnImg from "../assets/images/proj-img-rhonn.png";
+import FoodOrderImg from "../assets/images/proj-Food-order-app-img.png";
 const Projects = () => {
   const projects = [
     {
       title: "Loson stores e-commerce",
-      description: "Building the backend API for an e-commerce app",
+      description:
+        "I built the backend APIs using NodeJs/ExpressJs and MongoDb as database, and used ReactJs for the frontend. The App displays different functionalities including CRUD operations. You can view the github repo by clicking on image.",
       image: LosonImg,
+      link: "https://github.com/elnino10/loson-wears"
     },
     {
-      title: "Loson stores e-commerce",
-      description: "Building the backend API for an e-commerce app",
+      title: "Rhonn Real Estate Website",
+      description: "The website is more of a client-side project built with ReactJs library. I used MongoDb as database for data collation and storage. Click to visit website.",
       image: RhonnImg,
+      link: "https://github.com/elnino10/rhonn-real-estate"
     },
     {
-      title: "Loson stores e-commerce",
-      description: "Building the backend API for an e-commerce app",
-      image: ProjectImg3,
+      title: "Food Ordering App",
+      description: "Used ReactJs to implement the features of the app including routing and used firebase for authentication and data storage. Click on it to view the github repo.",
+      image: FoodOrderImg,
+      link: "https://github.com/elnino10/food-order-app-UI"
     },
   ];
 
@@ -33,8 +36,8 @@ const Projects = () => {
             <p>
               The projects below are ones live and ones that I've use in
               practice.
-              <br></br> In these projects I applied my afore mentioned
-              skills. Click on "Tab 1" below to view.
+              <br></br> In these projects I applied my afore mentioned skills.
+              Click on "Tab 1" below to view.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <div className="tab-nav">
@@ -58,8 +61,12 @@ const Projects = () => {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Nothing Here Yet. Please check back later!</Tab.Pane>
-                <Tab.Pane eventKey="third">Nothing Here Yet. Please check back later!</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  Nothing Here Yet. Please check back later!
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  Nothing Here Yet. Please check back later!
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

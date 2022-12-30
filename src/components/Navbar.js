@@ -6,6 +6,7 @@ import {
   AiOutlineGithub,
 } from "react-icons/ai";
 import { scroller } from "react-scroll";
+import Logo from "../assets/images/logo.png";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -30,7 +31,7 @@ const NavBar = () => {
       smooth: true,
       duration: 500,
       spy: true,
-      exact: true
+      exact: true,
     });
   };
 
@@ -42,7 +43,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={""} alt="logo" />
+          <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -59,6 +60,15 @@ const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
+              href="#skills"
+              className={
+                activeLink === "skills" ? "active-navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("skills")}
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
               href="#projects"
               className={
                 activeLink === "projects" ? "active-navbar-link" : "navbar-link"
@@ -68,13 +78,13 @@ const NavBar = () => {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="#skills"
+              href="#about-me"
               className={
-                activeLink === "skills" ? "active-navbar-link" : "navbar-link"
+                activeLink === "about-me" ? "active-navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("skills")}
+              onClick={() => onUpdateActiveLink("about-me")}
             >
-              Skills
+              About Me
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
