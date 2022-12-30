@@ -22,7 +22,7 @@ const Contact = () => {
   const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
-  const REACT_APP_SERVER_URL = "http://localhost:8000"
+  const REACT_APP_SERVER_URL = "https://joe-chidiebere-portfolio-api.onrender.com"
 
   const onUpdateForm = (field, value) => {
     setFormDetails({
