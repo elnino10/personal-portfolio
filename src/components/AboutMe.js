@@ -13,10 +13,13 @@ const AboutMe = () => {
             <h2>About Me</h2>
             <p>
               I am Joe Chidiebere, a graduate of Electronics and Computer
-              Engineering, and a Web Developer with 1+ years of experience in
-              web development. I also have 6+ years of working experience as an
+              Engineering, and a Web Developer with 2+ years of experience in
+              web development. I also have 5+ years of working experience as an
               electronics/electrical industrial engineer. I have worked with
-              multiple companies in my 6+ years of work. I believe in learning
+              multiple companies in my years of work. I started learning to code 
+              in mid 2020 because I had to learn a new skill that will keep me 
+              relevant in the fast evolving times in our contemporary world and
+              would give me the flexibility I desire. I believe in learning
               and hardwork to achieve success leaving little or nothing to fate.
             </p>
           </div>

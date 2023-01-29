@@ -42,7 +42,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={Logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -51,11 +51,11 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
-              href="#home"
+              href="/"
               className={
                 activeLink === "home" ? "active-navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("home")}
+              onClick={() => onUpdateActiveLink("home") }
             >
               Home
             </Nav.Link>
@@ -111,9 +111,11 @@ const NavBar = () => {
                 <AiOutlineTwitter />
               </a>
             </div>
-            <button className="vvd" ref={connectRef} onClick={toggle}>
-              <span>Let's Connect</span>
-            </button>
+            <Nav.Link href="#connect">
+              <button className="vvd" ref={connectRef} onClick={toggle}>
+                <span>Let's Connect</span>
+              </button>
+            </Nav.Link>
           </span>
         </Navbar.Collapse>
       </Container>
