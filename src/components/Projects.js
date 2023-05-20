@@ -1,11 +1,19 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import TwitterImg from "../assets/images/twitter-clone-image.png";
 import LosonImg from "../assets/images/proj-img-loson.png";
 import RhonnImg from "../assets/images/proj-img-rhonn.png";
 import FoodOrderImg from "../assets/images/proj-Food-order-app-img.png";
 const Projects = () => {
   const projects = [
+    {
+      title: "Twitter-clone",
+      description:
+        "Twitter clone is an app I built with Next.js, Tailwind CSS, other available free APIs, and I used Firebase as my database management system. App was made to depict functionalities and my knowledge of frontend software development. Click to view demo.",
+      image: TwitterImg,
+      link: "https://twitter-clone-elnino10.vercel.app",
+    },
     {
       title: "Loson stores e-commerce",
       description:
