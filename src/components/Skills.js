@@ -8,6 +8,9 @@ import NodeLogo from "../assets/images/node-js.png";
 import CssLogo from "../assets/images/css.png";
 import HtmlLogo from "../assets/images/html.png";
 import JsLogo from "../assets/images/JavaScript-logo.png";
+import NextLogo from "../assets/images/next.png";
+import TypescriptLogo from "../assets/images/typescript.png";
+import TailwindLogo from "../assets/images/tailwind.png";
 
 const Skills = () => {
   const responsive = {
@@ -67,9 +70,27 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <div className="image-container">
+                    <img src={NextLogo} alt="img" />
+                  </div>
+                  <h5>Next.Js</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
                     <img src={CssLogo} alt="img" />
                   </div>
                   <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={TailwindLogo} alt="img" />
+                  </div>
+                  <h5>Tailwind CSS</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={TypescriptLogo} alt="img" />
+                  </div>
+                  <h5>Typescript</h5>
                 </div>
                 <div className="item">
                   <div className="image-container">
