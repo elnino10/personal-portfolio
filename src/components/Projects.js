@@ -5,8 +5,16 @@ import TwitterImg from "../assets/images/twitter-clone-image.png";
 import LosonImg from "../assets/images/proj-img-loson.png";
 import RhonnImg from "../assets/images/proj-img-rhonn.png";
 import FoodOrderImg from "../assets/images/proj-Food-order-app-img.png";
+import PatientTrackerImg from "../assets/images/patient_tracker_img.png";
 const Projects = () => {
   const projects = [
+    {
+      title: "Patient Tracker App",
+      description:
+        "Patient tracker app is an application that helps to keep track of patients' records. I built the app using ReactJs for the frontend, Flask/Python for the backend, and Supabase/PostgreSQL as the database management system. Click to view app demo.",
+      image: PatientTrackerImg,
+      link: "https://patient-tracker-three.vercel.app",
+    },
     {
       title: "Twitter-clone",
       description:

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <Container className="footer">
         <Row className="align-items-center">
-          <p>Copyright 2022. All Rights Reserved</p>
+          <p>Copyright 2024. All Rights Reserved</p>
         </Row>
       </Container>
     </footer>

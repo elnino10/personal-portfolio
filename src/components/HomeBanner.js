@@ -62,14 +62,17 @@ const HomeBanner = () => {
               {`Hi, I'm Joe.`} <span>{text}</span>
             </h2>
             <p>
-              Joe Chidiebere is a passionate web developer. He is ambitious and
-              dedicated on and off the field. A good communicator, solution
-              oriented and willing to take up new challenge. He enjoys
-              collaborating with creative people and picking up new skills. His
-              team spirit has led to getting projects completed on schedule,
-              judging by his previous job experience outside of the Web
-              Development space. In his free time, he enjoys football games,
-              reading and billiard.
+              Joe Chidiebere Egboka a passionate and dedicated web developer with a 
+              penchant for taking on new challenges. With a background in Electronics 
+              and Computer Engineering, Joe brings over 2 years of web development 
+              experience to the table. Currently honing his skills as a software 
+              engineering student at ALX-SE Africa specializing on backend web development, 
+              he's committed to staying at the forefront of industry trends. A strong 
+              communicator and problem-solver, Joe thrives in collaborative environments, 
+              leveraging his team spirit to ensure project success. Beyond the digital realm, 
+              Joe enjoys football, reading, and billiards, finding balance and inspiration 
+              outside of coding. With a passion for continuous learning and a drive to excel, 
+              Joe is ready to tackle any challenge that comes his way.
             </p>
             <button onClick={toggle}>
               Let's meet <ArrowRightCircle size={25} />

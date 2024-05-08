@@ -12,15 +12,23 @@ const AboutMe = () => {
           <div className="about">
             <h2>About Me</h2>
             <p>
-              I am Joe Chidiebere, a graduate of Electronics and Computer
-              Engineering, and a Web Developer with 2+ years of experience in
-              web development. I also have 5+ years of working experience as an
-              electronics/electrical industrial engineer. I have worked with
-              multiple companies in my years of work. I started learning to code 
-              in mid 2020 because I had to learn a new skill that will keep me 
-              relevant in the fast evolving times in our contemporary world and
-              would give me the flexibility I desire. I believe in learning
-              and hardwork to achieve success leaving little or nothing to fate.
+              Hello, I'm Joe Chidiebere, a dynamic professional with a diverse background 
+              in Electronics and Computer Engineering. With over 2 years of experience in 
+              web development, I've honed my skills as a Web Developer, crafting elegant and 
+              functional digital solutions. Currently, I'm on an exciting journey as a software 
+              engineering student at ALX-SE Africa, where I'm immersing myself in hands-on 
+              projects to further sharpen my skillset, and specializing on backend web development. 
+              This transition marks a strategic move to stay abreast of the fast-paced tech 
+              landscape and enhance my flexibility in adapting to evolving industry demands. 
+              In addition to my web development expertise, I bring over 5 years of invaluable 
+              experience as an electronics/electrical industrial engineer, collaborating with 
+              various companies to drive innovation and efficiency in their operations. 
+              My coding journey began in mid-2022, driven by a quest to remain relevant and 
+              adaptable in our contemporary world. I firmly believe in the power of continuous 
+              learning and hard work as the key ingredients for success, leaving little to chance. 
+              With a solid foundation in both engineering and software development, I'm passionate 
+              about leveraging technology to tackle complex challenges and drive positive change 
+              in the digital realm.
             </p>
           </div>
         </Row>
@@ -81,7 +89,7 @@ const AboutMe = () => {
               for self improvement. I am happy with my progress so far which led
               to engaging myself with the projects listed above in the{" "}
               <a href="#projects">projects</a> section, thereby working with{" "}
-              <b>NodeJs/ExpressJs,</b> <b>relational database,</b> and also
+              <b>NodeJs/ExpressJs, Python/Flask, Django</b> <b>relational databases and non-relational databases,</b> and also
               working with the <b>ReactJs</b> library as part of the{" "}
               <a href="#skills">skills</a> I've acquired.
               <br />

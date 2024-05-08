@@ -11,6 +11,10 @@ import JsLogo from "../assets/images/JavaScript-logo.png";
 import NextLogo from "../assets/images/next.png";
 import TypescriptLogo from "../assets/images/typescript.png";
 import TailwindLogo from "../assets/images/tailwind.png";
+import PythonLogo from "../assets/images/python-logo.png";
+import MySQLogo from "../assets/images/mysql-logo.png";
+import FlaskLogo from "../assets/images/flask-logo.png";
+import DjangoLogo from "../assets/images/django-logo.png";
 
 const Skills = () => {
   const responsive = {
@@ -52,15 +56,33 @@ const Skills = () => {
               >
                 <div className="item">
                   <div className="image-container">
-                    <img src={JsLogo} alt="img" />
+                    <img src={PythonLogo} alt="img" />
                   </div>
-                  <h5>JavaScript</h5>
+                  <h5>Python</h5>
                 </div>
                 <div className="item">
                   <div className="image-container">
-                    <img src={ReactLogo} alt="img" />
+                    <img src={FlaskLogo} alt="img" />
                   </div>
-                  <h5>React Js</h5>
+                  <h5>Flask</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={MySQLogo} alt="img" />
+                  </div>
+                  <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={DjangoLogo} alt="img" />
+                  </div>
+                  <h5>Django</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={JsLogo} alt="img" />
+                  </div>
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <div className="image-container">
@@ -70,9 +92,21 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <div className="image-container">
+                    <img src={ReactLogo} alt="img" />
+                  </div>
+                  <h5>React Js</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
                     <img src={NextLogo} alt="img" />
                   </div>
                   <h5>Next.Js</h5>
+                </div>
+                <div className="item">
+                  <div className="image-container">
+                    <img src={TypescriptLogo} alt="img" />
+                  </div>
+                  <h5>Typescript</h5>
                 </div>
                 <div className="item">
                   <div className="image-container">
@@ -85,12 +119,6 @@ const Skills = () => {
                     <img src={TailwindLogo} alt="img" />
                   </div>
                   <h5>Tailwind CSS</h5>
-                </div>
-                <div className="item">
-                  <div className="image-container">
-                    <img src={TypescriptLogo} alt="img" />
-                  </div>
-                  <h5>Typescript</h5>
                 </div>
                 <div className="item">
                   <div className="image-container">

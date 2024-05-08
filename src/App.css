@@ -347,6 +347,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item .image-container img {
   width: 50%;
+  height: 90%;
 }
 .background-image-left {
   top: 28%;
@@ -497,6 +498,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #3642aa -5.91%, #9e9aad 111.58%);
   padding: 60px 0 200px 0;
+  /* height: 20rem; */
 }
 .contact img {
   width: 92%;
