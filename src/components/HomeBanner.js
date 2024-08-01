@@ -64,8 +64,8 @@ const HomeBanner = () => {
             <p>
               A passionate and dedicated web developer with a penchant for taking 
               on new challenges. With a background in Electronics and Computer 
-              Engineering, An alumni of the prestigious ALX-SE Africa specialized 
-              on backend communicator with good problem-solving skills, thrives in 
+              Engineering, An alumni of the prestigious ALX Africa Software Engineering program, specialized 
+              on backend development, a good communicator with problem-solving skills, thrives in 
               collaborative environments, leveraging his team spirit to ensure 
               project success. When not coding, he enjoys electrical works, football, 
               reading, and billiards, finding balance and inspiration outside of 
