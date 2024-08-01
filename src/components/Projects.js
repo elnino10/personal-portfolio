@@ -6,8 +6,16 @@ import LosonImg from "../assets/images/proj-img-loson.png";
 import RhonnImg from "../assets/images/proj-img-rhonn.png";
 import FoodOrderImg from "../assets/images/proj-Food-order-app-img.png";
 import PatientTrackerImg from "../assets/images/patient_tracker_img.png";
+import LearnazHubImg from "../assets/images/learnaz_hub_img.png";
 const Projects = () => {
   const projects = [
+    {
+      title: "Learnaz Hub E-learning Platform",
+      description:
+        "An e-learning platform where users can enroll for courses and can register as course creators to create their own courses based on a specific course category. Click to view app demo.",
+      image: LearnazHubImg,
+      link: "https://learnaz-hub.vercel.app/",
+    },
     {
       title: "Patient Tracker App",
       description:
