@@ -97,7 +97,7 @@ const NavBar = () => {
                 <AiOutlineGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/joe-egboka-703a21126/"
+                href="https://www.linkedin.com/in/joe-egboka/"
                 target="_blank"
                 rel="noreferrer"
               >
