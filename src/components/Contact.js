@@ -149,7 +149,7 @@ const Contact = () => {
                       </div>
                       <div style={{ marginBottom: "5px" }}>
                         <a
-                          href="https://www.linkedin.com/in/joe-egboka"
+                          href="https://www.linkedin.com/in/joe-egboka-703a21126/"
                           target="_blank"
                           rel="noreferrer"
                         >
